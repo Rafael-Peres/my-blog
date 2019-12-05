@@ -1,5 +1,13 @@
 import React from "react"
 
-const AboutPage = () => <h1>About Page</h1>
+import SEO from "../components/seo"
+import Layout from "../components/layout"
+
+const AboutPage = () => (
+  <Layout>
+    <SEO title="About" />
+    <h1>About</h1>
+  </Layout>
+)
 
 export default AboutPage
