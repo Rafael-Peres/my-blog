@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `My-blog`,
-    position: `Backend Developer`,
-    description: `A blog about backend development and other cool stuff`,
+    title: `Rafael Peres`,
+    position: `FullStack Developer`,
+    description: `Este blog foi criado através do curso crie um site PWA com React, GraphQL e Netlify CMS do William Justen`,
     author: `@rafael-peres`,
     nome: `vinicius`,
   },
@@ -14,6 +14,19 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `posts`,
+        path: `${__dirname}/posts`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [],
       },
     },
     `gatsby-transformer-sharp`,

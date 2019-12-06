@@ -13,12 +13,14 @@
     "gatsby-plugin-sharp": "^2.3.4",
     "gatsby-plugin-styled-components": "^3.1.14",
     "gatsby-source-filesystem": "^2.1.39",
+    "gatsby-transformer-remark": "^2.6.39",
     "gatsby-transformer-sharp": "^2.3.6",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
-    "styled-components": "^4.4.1"
+    "styled-components": "^4.4.1",
+    "styled-icons": "^9.0.1"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
@@ -29,7 +31,8 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "SET GATSBY_GRAPHQL_IDE=playground&gatsby develop",
+    "develop": "gatsby develop",
+    "playground": "SET GATSBY_GRAPHQL_IDE=playground&gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",

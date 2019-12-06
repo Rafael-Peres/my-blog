@@ -1,22 +1,21 @@
 import React from "react"
 import PropTypes from "prop-types"
-import * as S from "./styled"
 
-import Profile from "../Profile"
+import * as S from "./styled"
 import GlobalStyles from "../../styles/global"
+import SideBar from "../SideBar"
+import MenuBar from "../MenuBar"
 
 const Layout = ({ children }) => {
   return (
     <>
-    <S.LayoutWrapper>
-    <GlobalStyles />
-      <aside>
-        <Profile />
-      </aside>
-      <S.LayoutMain>{children}</S.LayoutMain>
-    </S.LayoutWrapper>
+      <S.LayoutWrapper>
+        <GlobalStyles />
+        <SideBar />
+        <S.LayoutMain>{children}</S.LayoutMain>
+        <MenuBar />
+      </S.LayoutWrapper>
     </>
-    
   )
 }
 
