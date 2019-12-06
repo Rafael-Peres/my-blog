@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Rafael Peres`,
     position: `FullStack Developer`,
-    description: `Este blog foi criado através do curso crie um site PWA com React, GraphQL e Netlify CMS do William Justen`,
+    description: `Este blog foi criado através do curso crie um site PWA com React, GraphQL e Netlify CMS do `,
     author: `@rafael-peres`,
     nome: `vinicius`,
   },

@@ -16,6 +16,18 @@ export const ProfileLink = styled(Link)`
   }
 `
 
+export const SocialLink = styled.a`
+  color: #1fa1f2;
+  text-decoration: none;
+  transition: color 0.5s;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.4;
+  &:hover {
+    color: #8899a6;
+  }
+`
+
 export const ProfileAuthor = styled.h1`
   font-size: 1.6rem;
   margin: 0.5rem auto 1.5rem;

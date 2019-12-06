@@ -29,7 +29,16 @@ const Profile = () => {
           <S.ProfilePosition>{position}</S.ProfilePosition>
         </S.ProfileAuthor>
       </S.ProfileLink>
-      <S.ProfileDescription>{description}</S.ProfileDescription>
+      <S.ProfileDescription>
+        {description}
+        <S.SocialLink
+          href="https://willianjusten.com.br/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Willian Justen
+        </S.SocialLink>
+      </S.ProfileDescription>
     </S.ProfileWrapper>
   )
 }
