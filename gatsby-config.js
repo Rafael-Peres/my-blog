@@ -8,7 +8,7 @@ module.exports = {
     position: `FullStack Developer`,
     description: `Este blog foi criado através do curso crie um site PWA com React, GraphQL e Netlify CMS do `,
     author: `@rafael-peres`,
-    nome: `vinicius`,
+    siteUrl: `https://rafaelperes.netlify.com/`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
